@@ -1,0 +1,13 @@
+{
+  "name": "duraluminum",
+  "homepage": "https://github.com/cloudfleet/duralumin",
+  "_release": "96dcf3dacd",
+  "_resolution": {
+    "type": "branch",
+    "branch": "production",
+    "commit": "96dcf3dacd2ed5a992f7c68241c35375bdff98ac"
+  },
+  "_source": "git://github.com/cloudfleet/duralumin.git",
+  "_target": "production",
+  "_originalSource": "cloudfleet/duralumin"
+}
