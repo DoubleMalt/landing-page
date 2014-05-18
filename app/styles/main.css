@@ -1,6 +1,35 @@
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5, h6 {
     font-weight: bold;
     letter-spacing: 0.1em;
+}
+
+h4, h5, h6 {
+    margin-top: 20px;
+}
+
+h3 > small {
+    font-family: "Open Sans", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+    color: #2f2f2f;
+    letter-spacing: 0;
+}
+
+main > header
+{
+    margin-bottom: 0;
+}
+
+.navbar
+{
+    margin-bottom: 0;
+}
+.navbar-brand
+{
+    height: auto;
+}
+
+.navbar-brand > a
+{
+    margin-right: 1em;
 }
 
 body>main .jumbotron {
@@ -14,7 +43,18 @@ body>main .jumbotron {
     background-color: white;
 
 }
-
+.row
+{
+    padding-top: 4em;
+    padding-bottom: 5.5em;
+}
+.row.footer
+{
+    color: white;
+    background-color: #2f2f2f;
+    padding-top: 0.5em;
+    padding-bottom: 0;
+}
 #eyecatcher > img {
     width: 100%;
 }
@@ -37,6 +77,29 @@ body>main .jumbotron {
 #call-to-action-tagline
 {
     font-size: 0.9em;
+}
+
+#landing-about-cloud {
+    position: absolute;
+    top: 1em;
+    left: -5em;
+}
+#landing-about-padlock {
+    position: absolute;
+    top: 2em;
+    right: -5em;
+}
+#landing-about-arrows {
+    position: relative;
+    top: 2em;
+    left: -3em;
+    width: 170%;
+}
+
+.img-header {
+    height: 1.5em;
+    vertical-align: bottom;
+    margin-left: 1em;
 }
 
 @media (max-width: 767px) {
@@ -62,5 +125,20 @@ body>main .jumbotron {
     {
         padding-left: 120px;
     }
-
+    #landing-about-cloud {
+        position: relative;
+        float: right;
+        left: 0;
+        top: 0;
+    }
+    #landing-about-padlock {
+        position: relative;
+        float: right;
+        left: 0;
+        top: 0;
+    }
+    h3 > small {
+        display: inline-block;
+    }
 }
+

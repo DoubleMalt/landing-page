@@ -39,27 +39,28 @@
                             </button>
                         </div>
                         <div class="collapse navbar-collapse" id="upper-navbar">
-                            <ul class="nav navbar-nav navbar-left">
+                            <!--ul class="nav navbar-nav navbar-left">
                                 <li><a href="#">GET STARTED!</a></li>
                                 <li><a href="#">SUPPORT US!</a></li>
                                 <li><a href="#">TRY IT!</a></li>
-                            </ul>
+                            </ul-->
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">DASHBOARD</a></li>
-                                <li><a href="#"><i class="fa fa-search"></i></a></li>
+                                <!--li><a href="#">DASHBOARD</a></li-->
+                                <!--li><a href="#"><i class="fa fa-search"></i></a></li-->
+                                <li><a href="#call-to-action-welcome">TRY IT!</a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
                         <div class="collapse navbar-collapse" id="lower-navbar">
                             <ul class="nav navbar-nav navbar-right">
-                                <li><a href="#">FEATURES</a></li>
-                                <li><a href="#">MOTIVATION</a></li>
-                                <li><a href="#">TECH</a></li>
-                                <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#features">FEATURES</a></li>
+                                <li><a href="#motivation">MOTIVATION</a></li>
+                                <!--li><a href="#">TECH</a></li-->
+                                <li><a href="https://facebook.com/cloudfleet" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <!--li><a href="#"><i class="fa fa-google-plus"></i></a></li-->
+                                <li><a href="https://twitter.com/cloudfleetio" target="_blank"><i class="fa fa-twitter"></i></a></li>
                             </ul>
                         </div><!-- /.navbar-collapse -->
-                        <h3 class="navbar-brand logo"><a href="#">CLOUD<span>FLEET</span></a></h3>
+                        <h3 class="navbar-brand logo"><a href="#">CLOUD<span>FLEET</span></a><small>Host your cloud services at home</small></h3>
                     </div><!-- /.container-fluid -->
                 </nav>
 <!--
@@ -93,91 +94,101 @@
             </div>
 
             <div class="row">
-                <div class="col-sm-1">
-                    <img src="images/about-cloud.png">
-                </div>
-                <div class="col-sm-4">
+                <div class="col-sm-5">
+                    <img src="images/about-cloud.png" id="landing-about-cloud">
                     <h3>WEB ACCESS</h3>
                     <p>Access your email and files online, like you're used to.</p>
                 </div>
                 <div class="col-sm-2">
-                    <img src="images/about-arrows.png">
+                    <img src="images/about-arrows.png" id="landing-about-arrows" class="hidden-xs">
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-5">
+                    <img src="images/about-padlock.png" id="landing-about-padlock">
                     <h3>DECENTRALISED</h3>
                     <p>
                         Host your own data in a small box at home.
                         Nobody, except you, has access to your data.
                     </p>
                 </div>
-                <div class="col-sm-1">
-                    <img src="images/about-padlock.png">
-                </div>
             </div>
 
 
-            <div class="row split box">
-                <div class="col-sm-11 col-sm-offset-1">
+            <div class="row split box" id="features">
+                <div class="col-sm-12">
                     <h3>FEATURES</h3>
                 </div>
                 <div class="clearfix"></div>
                 <div class="centered col-sm-6">
-                    <h4>Mail</h4>
-                    <img src="images/mailpile.png" class="img-circle img-feature pull-left">
+                    <h4>MAIL <img src="images/mail.png" class="img-feature img-header"></h4>
                     <p>The mail client included is provided by the <a href="https://www.mailpile.is/">mailpile project</a>,
                         that aims to create a mail client that is focuses on search, privacy and encryption</p>
                 </div>
                 <div class="centered col-sm-6">
-                    <h4>File Synchronization</h4>
-                    <img src="images/owncloud.png" class="img-circle img-feature pull-left" >
+                    <h4>FILE SYNC <img src="images/filesync.png" class="img-feature img-header"></h4>
                     <p>For file synchronization cloud|fleet includes <a href="http://owncloud.org">ownCloud</a>, an open source
                         project that makes your data available from everywhere.</p>
                 </div>
                 <div class="clearfix"></div>
                 <div class="centered col-sm-6">
-                    <h4>Note taking</h4>
+                    <h4>NOTE TAKING <img src="images/notes.png" class="img-feature img-header"></h4>
 
                     <p>To write and access your notes from anywhere, cloud|fleet includes a customized version of
                         <a href="https://github.com/FoxUSA/OpenNote">OpenNote</a></p>
                 </div>
                 <div class="centered col-sm-6">
-                    <h4>Contact Management</h4>
-                    <img src="images/owncloud.png" class="img-circle img-feature pull-left" >
+                    <h4>CONTACT MANAGEMENT <img src="images/contacts.png" class="img-feature img-header"></h4>
                     <p>For contact management cloud|fleet includes <a href="http://owncloud.org">ownCloud</a>, an open source
                         project that makes your data available from everywhere.</p>
                 </div>
                 <div class="clearfix"></div>
                 <div class="centered col-sm-6">
-                    <h4>Calendar</h4>
-                    <img src="images/owncloud.png" class="img-circle img-feature pull-left" >
+                    <h4>CALENDAR <img src="images/calendar.png" class="img-feature img-header"></h4>
                     <p>For calendar synchronization cloud|fleet includes <a href="http://owncloud.org">ownCloud</a>, an open source
                         project that makes your data available from everywhere.</p>
                 </div>
                 <div class="centered col-sm-6">
-                    <h4>Backup</h4>
+                    <h4>BACKUP <img src="images/backup.png" class="img-feature img-header"></h4>
 
                     <p>With the box you will also get backup space. This backup will be encrypted on your box before it is sent
                         to us. So in anything goes wrong, you will always be able to restore your data.</p>
                 </div>
             </div>
 
-            <div class="footer">
-                <p>Made with ♥ and open source by the Cloudfleet team.</p>
+            <div class="row split airship" id="motivation">
+                <div class="col-sm-12">
+                    <h3>MOTIVATION</h3>
+                </div>
+                <div class="col-sm-12">
+                    <h4>1. PRIVACY</h4>
+
+                    <p>Recent developments showed that big providers cannot be trusted to be able to
+                        keep
+                        your data secure, even if they have the best intentions to do no evil.</p>
+
+                    <h4>2. ACCESSABILITY</h4>
+
+                    <p>Big providers can shut you out of your account for no reason whatsoever, taking your data with them. Only by
+                        reclaiming the cloud can you guarantee access to your own data forever.</p>
+
+                    <h4>3. RESILIENCE</h4>
+
+                    <p>With a big network of inexpensive boxes, no single outtage can have a devastating effect like the shutdown of
+                        a big provider </p>
+
+                    <h4>4. EXPANDABILITY</h4>
+
+                    <p>If you own your data you can augment your cloud with additional features as they get available.</p>
+                </div>
+            </div>
+            <div class="row footer">
+                <div class="col-sm-12">
+                    <p>Made with ♥ and open source by the Cloudfleet team.</p>
+                </div>
             </div>
         </main>
 
 
         <script src="duraluminum/scripts/jquery.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-            e.src='//www.google-analytics.com/analytics.js';
-            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-            ga('create','UA-XXXXX-X');ga('send','pageview');
-        </script>
 
         <script src="duraluminum/scripts/plugins.js"></script>
 
