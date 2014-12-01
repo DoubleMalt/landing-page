@@ -15,8 +15,11 @@
     width: 170%;
 }
 
-img.blimp {
+img.promo {
     width: 100%;
+}
+
+img.blimp {
     max-width: 200px;
     background: none;
 }
