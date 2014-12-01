@@ -15,5 +15,8 @@
     width: 170%;
 }
 
-
-
+img.blimp {
+    width: 100%;
+    max-width: 200px;
+    background: none;
+}
